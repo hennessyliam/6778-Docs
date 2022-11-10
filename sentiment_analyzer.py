@@ -23,3 +23,6 @@ analyzer = SentimentIntensityAnalyzer()
 scores = analyzer.polarity_scores(sentence)
 # print the scores
 print(scores)
+
+# create a new sentiment analyzer
+
